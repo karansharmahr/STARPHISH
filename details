@@ -1,0 +1,16 @@
+#! /bin/bash
+echo  -e "\e[34m"
+echo "Do  You Want To See Credentials  ? (yes/no)"
+
+read answer;
+case $answer in
+yes) cat usernames.txt
+ details ;;
+y) cat usernames.txt
+   details ;;
+no) echo "Thanks for using our tool";;
+n) echo "Thanks for using our tool";;
+*) echo "invlid input!"
+      details ;;
+esac
+

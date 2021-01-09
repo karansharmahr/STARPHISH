@@ -6,6 +6,8 @@ chmod 765 details
 chmod 765 phish
 cd
 cd Phishing
+unzip WebPages.zip
+rm -rf WebPages.zip
 rm -rf phish
 rm -rf details
 cd

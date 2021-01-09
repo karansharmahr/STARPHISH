@@ -16,7 +16,9 @@ wget https://download1614.mediafire.com/4t58o9sjg9vg/650jb9laqs44qhn/>
 
 chmod +x *
 
-
+pkg install gem -y
+gem install lolcat
+pkg install php
 
 
 

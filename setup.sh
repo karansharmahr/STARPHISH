@@ -1,5 +1,6 @@
 #! /bin/bash
 cd 
+rm -rf ngrok
 cd /data/data/com.termux/files/usr/bin
 rm -rf phish
 rm -rf details

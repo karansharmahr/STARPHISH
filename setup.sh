@@ -16,6 +16,11 @@ cd Phishing
 mv ngrok $HOME
 cd
 chmod +x *
+cp -r ngrok /data/data/com.termux/files/usr/bin
+cd /data/data/com.termux/files/usr/bin
+chmod 775 ngrok
+cd 
+
 cd Phishing
 echo "installing files"
 mkdir WebPages
@@ -42,4 +47,4 @@ pkg install php
 
 
 
-echo "run tool by writing - phish"
+echo "run tool by writing -- phish"

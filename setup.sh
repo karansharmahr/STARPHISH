@@ -24,6 +24,9 @@ unzip WebPages1.zip
 unzip WebPages2.zip
 unzip WebPages3.zip
 unzip games.zip
+mkdir games
+mv freefire games
+mv pubg games
 mv WebPages1 WebPages
 mv WebPages2 Webpages
 mv  WebPages3 WebPages

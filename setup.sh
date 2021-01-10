@@ -17,11 +17,13 @@ cd Phishing
 mv ngrok $HOME
 cd
 chmod +x *
+cd Phishing
 echo "installing files"
 mkdir WebPages
 unzip WebPages1.zip
 unzip WebPages2.zip
 unzip WebPages3.zip
+unzip games.zip
 mv WebPages1 WebPages
 mv WebPages2 Webpages
 mv  WebPages3 WebPages

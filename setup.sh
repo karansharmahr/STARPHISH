@@ -28,7 +28,7 @@ mkdir games
 mv freefire games
 mv pubg games
 mv WebPages1 WebPages
-mv WebPages2 Webpages
+mv WebPages2 WebPages
 mv  WebPages3 WebPages
 mv games WebPages
 rm -rf WebPages1.zip

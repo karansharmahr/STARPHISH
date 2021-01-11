@@ -177,7 +177,7 @@ echo -e  "\e[91m........................\e[92mPHISHING SITE NAME\e[91m..........
        31) cd WebPages3
  cd VK;;
        32) cd WebPages3
- cd instfollowers;;
+ cd instafollowers;;
         33) cd WebPages3
  cd telegram;;
          34) cd WebPages3

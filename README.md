@@ -25,3 +25,33 @@ This tool consists of 75 pages❤️❤️
 
 
 
+#INSTALLLATION
+
+
+git clone https://github.com/karansharmahr/Phishing
+
+
+
+
+cd Phishing
+
+
+
+
+chmod +x *
+
+
+./setup.sh
+
+
+
+
+Then execute tool by Typing
+
+
+phish 
+
+
+
+
+❤️❤️💖

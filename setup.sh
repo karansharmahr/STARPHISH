@@ -2,6 +2,7 @@
 cd 
 rm -rf ngrok
 cd /data/data/com.termux/files/usr/bin
+rm -rf ngrok
 rm -rf phish
 rm -rf details
 echo "removing all old phishing files"

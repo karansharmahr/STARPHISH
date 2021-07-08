@@ -108,7 +108,7 @@ echo "
 
 
 echo -e "\e[33m"
-cd /home/kali/Desktop/Phishing
+cd /home/kali/Desktop/Phishing/WebPages
 echo ""
 echo ""
 echo -e  "\e[91m........................\e[92mPHISHING SITE NAME\e[91m............................" | lolcat

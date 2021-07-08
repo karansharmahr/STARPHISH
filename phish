@@ -108,7 +108,7 @@ echo "
 
 
 echo -e "\e[33m"
-cd /$HOME/Phishing/WebPages
+cd /home/kali/Desktop
 echo ""
 echo ""
 echo -e  "\e[91m........................\e[92mPHISHING SITE NAME\e[91m............................" | lolcat
@@ -284,4 +284,4 @@ echo "Send this link to the victim --    $link" | lolcat
 echo -e "\e[96m"
 
 details
-cd $HOME
+cd /home/kali/Desktop

@@ -27,7 +27,7 @@ rm -rf WebPages2.zip
 rm -rf WebPages3.zip
 chmod +x *
 apt-get install ruby -y
-gem install lolcat -y
+gem install lolcat
 apt-get install php -y
 
 

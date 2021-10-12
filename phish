@@ -284,4 +284,4 @@ echo "Send this link to the victim --    $link" | lolcat
 echo -e "\e[96m"
 
 details
-cd /home/kali/Desktop
+

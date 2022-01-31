@@ -17,9 +17,9 @@ rm -rf games.zip
 rm -rf WebPages2.zip
 rm -rf WebPages3.zip
 chmod +x *
-apt-get install ruby -y
-gem install lolcat
-apt-get install php -y
+sudo apt-get install ruby -y
+sudo gem install lolcat
+sudo apt-get install php -y
 
 
 

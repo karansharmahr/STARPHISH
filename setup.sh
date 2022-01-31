@@ -21,7 +21,7 @@ sudo apt-get install ruby -y
 sudo gem install lolcat
 sudo apt-get install php -y
 
-
+tar zxvf ngrok-stable-linux-amd64.tgz  
 
 read -p " NGROK_AUTH:       " $TOKEN
 ./ngrok authtoken $TOKEN
